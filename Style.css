@@ -1,0 +1,126 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#333;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:#4CAF50;
+color:white;
+}
+
+.carousel{
+position:relative;
+max-width:1000px;
+margin:auto;
+}
+
+.slide{
+display:none;
+}
+
+.slide.active{
+display:block;
+}
+
+.slide img{
+width:100%;
+border-radius:10px;
+}
+
+.caption{
+position:absolute;
+bottom:10px;
+left:20px;
+color:white;
+background:rgba(0,0,0,0.5);
+padding:5px 10px;
+}
+
+.prev, .next{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+background:black;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+}
+
+.prev{ left:0; }
+.next{ right:0; }
+
+#articles{
+padding:40px;
+text-align:center;
+}
+
+.article-container{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+#about, #contact{
+padding:40px;
+text-align:center;
+}
+
+form{
+display:flex;
+flex-direction:column;
+max-width:400px;
+margin:auto;
+gap:10px;
+}
+
+input, textarea{
+padding:10px;
+}
+
+button{
+background:#4CAF50;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+}
