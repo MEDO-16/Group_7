@@ -78,6 +78,20 @@ padding:40px;
 text-align:center;
 }
 
+/* Phones */
+@media (max-width: 600px) {
+  .article-container{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .card{
+    width: 90%;
+  }
+  header, nav ul{
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .article-container{
 display:flex;
 gap:20px;
@@ -124,3 +138,4 @@ color:white;
 text-align:center;
 padding:10px;
 }
+
